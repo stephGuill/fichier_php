@@ -37,16 +37,16 @@
    $b =10;
    $c =3;
 
-   $addition = $a + $b;
+   $addition = $a += $b;
+ echo "addition à $addition";
    $multiplication = $b * $c;
+ echo "multiplication à $multiplication";
    $division = $b / $a;
+ echo "division à $division";
    $soustraction = $c - $b;
+ echo "soustraction à $soustraction";
    $reste = $b % $c;
-   echo "addition à $addition";
-   echo "multiplication à $multiplication";
-   echo "division à $division";
-   echo "soustraction à $soustraction";
-   echo "reste à $reste";
+ echo "reste à $reste";
    ?>
 </body>
 </html>
